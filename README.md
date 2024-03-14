@@ -12,6 +12,7 @@ Backend application for broadcasting news received from UDP clients to TCP clien
 * `server.cpp` -> server implementation
 * `subscriber.cpp` -> TCP client implementation
 * `Makefile` -> contains server, subscriber and clean rules
+* `udp_client/` -> contains an UDP client implemented in python for testing purposes
 
 
 ## Run the tests

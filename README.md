@@ -1,6 +1,6 @@
-# Client-server application
+# News broadcasting app
 
-Backend application for broadcasting news received from UDP clients to TCP clients, using I/O multiplexing
+Backend application for broadcasting news received from UDP clients over TCP, using I/O multiplexing.
 
 
 ## Project structure
@@ -20,13 +20,13 @@ Backend application for broadcasting news received from UDP clients to TCP clien
 Clone the repository on your local machine with Linux (required for use of epoll).
 
 ```bash
-git clone https://github.com/alexandruvidu/client-server-app
+git clone https://github.com/alexandruvidu/news-broadcasting-app
 ```
 
 Go to the project directory.
 
 ```bash
-cd client-server-app
+cd news-broadcasting-app
 ```
 
 Run the test script.
@@ -89,4 +89,4 @@ PAYLOAD TYPE    -> Message type
 
 ## Documentation
 
-[Detailed implementation](https://github.com/alexandruvidu/client-server-app/blob/master/Implementation.md)
+[Detailed implementation](https://github.com/alexandruvidu/news-broadcasting-app/blob/master/Implementation.md)
